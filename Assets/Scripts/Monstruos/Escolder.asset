@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44f70e54900bd44289457ebf315878c, type: 3}
+  m_Name: Escolder
+  m_EditorClassIdentifier: 
+  idName: Escolder
+  sprite: {fileID: 21300000, guid: 17bc4099cacd5b44689ca75d154ac7f9, type: 3}
+  icon: {fileID: 138647017, guid: 76a705073a8020f439d3f0b26fa81670, type: 3}
+  vida_max: 32
+  attack: 40
+  defense: 70
+  magic_attack: 70
+  magic_defense: 22
+  expYield: 67
+  growType: 1
+  tipo1: 15
+  tipo2: 6
+  movimientos_aprendibles:
+  - habilidadBase: {fileID: 11400000, guid: b8b7624872a56b54c93a825890494fda, type: 2}
+    nivel: 1
+  - habilidadBase: {fileID: 11400000, guid: bdb6ba812546d2c459ea1079cca3e11d, type: 2}
+    nivel: 1
+  - habilidadBase: {fileID: 11400000, guid: 15fe4e37f7b87a94a9ec8934e6774da1, type: 2}
+    nivel: 5
+  - habilidadBase: {fileID: 11400000, guid: ce42ce7e7fa8bc64bbb290d9919bf925, type: 2}
+    nivel: 8
